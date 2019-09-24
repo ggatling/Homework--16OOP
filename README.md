@@ -39,7 +39,7 @@ when the program started and destroyed when the program stops.
    - Since temperature is not a variable in Appliance, we are unable to assign the method getTemperature to the temperature variable in Refrigerator.
    - Casting would give us more funtionality to the Appliance object.
 7. In a normal class (also called a **concrete** class), do you need to **implement** all the methods, or can you simply **declare** some? What about in an `abstract` class?
-- In a normal class you dont need to implement all the methods and some can just be declared while in an abstract class you force implementation onto the classes that extend from it.
+- In a normal class you dont need to implement all the methods and some can just be declared while in an abstract class you force implementation of all the abstract methods onto the classes that extend from it.
 8. What about an `interface`? Can you implement any methods in an `interface`? Can you declare methods in an `interface`?
 - You have to implement all the methods from an interface or else it has to be made an abstract class. Yes you can declare methods in an interface.
 9. Can you create an instance of an `abstract` class? Also, look up the Java keyword `final` and see if you can explain why a class **cannot** be both `abstract` and `final`.
@@ -47,8 +47,7 @@ when the program started and destroyed when the program stops.
 10. What happens when a method **overrides** another method? If parent and child classes have methods with the same name, when you call that method on an instance of the child class, which implementation of the method will be executed?
 - When you override a method you are able to set the value of the method locally in the child class.
 11. What's the relationship between `List`, `LinkedList`, and `ArrayList`? Why do we call a method **polymorphic** if it takes an input of type `List` rather than an input of type `LinkedList` or `Arraylist`? Why is that useful?
-- Linkedlist provide easy and fast ways for insertion and removal, ArrayList takes up less memory. When using search, it is better to use ArrayList because
-elements are accessed by index. We call a method polymorphic because it has many different stages, a List is broad and can be seen and the parent of the subcategories of lists that differ.
+- Linkedlist provide easy and fast ways for insertion and removal, ArrayList takes up less memory. When using search, it is better to use ArrayList because elements are accessed by index. We call a method polymorphic because it has many different stages, a List is broad and can be seen and the parent of the subcategories of lists that differ.
 Polymorphism is useful because it allows you to perform a single action in different ways, one interface and many implementations.
 ### Deliverable
 
